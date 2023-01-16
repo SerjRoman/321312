@@ -11,7 +11,7 @@ def make_commit(day):
     os.system(f'git checkout -b {day}')
 
 main = True
-index = 16
+index = 17
 while main:
     
     make_commit(index)
